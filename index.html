@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <main class="app">
+    <article class="profile-card" data-testid="test-profile-card">
+
+      <div class="profile-layout">
+
+        <!-- Avatar -->
+        <figure class="avatar-wrapper">
+          <img 
+            src="https://pbs.twimg.com/profile_images/2042933800460492800/ujMKBfsS_400x400.jpg"
+            alt="Portrait of Marvellous Godwin"
+            data-testid="test-user-avatar"
+          />
+        </figure>
+
+        <div class="profile-content">
+
+          <!-- Name -->
+          <header>
+            <h2 data-testid="test-user-name">Marvellous Godwin</h2>
+          </header>
+
+          <!-- Bio -->
+          <p data-testid="test-user-bio">
+            Passionate developer focused on building scalable systems, mastering machine learning, and crafting clean user experiences.
+          </p>
+
+          <!-- Time -->
+          <time 
+            id="time"
+            data-testid="test-user-time"
+            aria-live="polite"
+          ></time>
+
+          <!-- Social Links -->
+          <nav data-testid="test-user-social-links" class="social-links">
+            <a href="https://x.com/Marver1x" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-twitter">Twitter</a>
+            <a href="https://github.com/Marver1x" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-github">GitHub</a>
+            <a href="https://www.linkedin.com/in/marvellous-godwin-52951722b/" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-linkedin">LinkedIn</a>
+          </nav>
+
+          <!-- Hobbies -->
+          <section>
+            <h3>Hobbies</h3>
+            <ul data-testid="test-user-hobbies">
+              <li>Coding</li>
+              <li>Gaming</li>
+              <li>Watching Anime</li>
+            </ul>
+          </section>
+
+          <!-- Dislikes -->
+          <section>
+            <h3>Dislikes</h3>
+            <ul data-testid="test-user-dislikes">
+              <li>Release date extensions</li>
+              <li>Slow internet</li>
+              <li>Laziness</li>
+            </ul>
+          </section>
+
+        </div>
+      </div>
+
+    </article>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
