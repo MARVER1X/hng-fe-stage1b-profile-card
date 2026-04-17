@@ -6,7 +6,7 @@ A clean, accessible, and responsive Profile Card component built with vanilla HT
 
 ## 🔗 Live Demo
 
-[View Live on GitHub Pages](https://MARVER1X.github.io/hng-fe-stage-1b-profile-card/)
+[View Live on GitHub Pages](https://MARVER1X.github.io/hng-fe-stage1b-profile-card/)
 
 ---
 
